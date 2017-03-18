@@ -1,10 +1,18 @@
+/*
+    Description: Header file that describes the ComplexNumber ADT.
+ */
+
 #ifndef TRABAJOPRACTICOTADENC_COMPLEXNUMBER_H
 #define TRABAJOPRACTICOTADENC_COMPLEXNUMBER_H
+
+// --- Structs ---
 
 struct ComplexNumber{
     int real;
     int imaginary;
 }typedef ComplexNumber;
+
+// --- Function ---
 
 ComplexNumber* createComplexNumber(int aReal, int aImaginary);
 void destroyComplexNumber(ComplexNumber* c);
